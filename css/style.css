@@ -1,0 +1,205 @@
+.face1{
+  width:430px;
+  height:430px;
+  border-radius:50%;
+  background:#5555ff;
+  position: absolute;
+  right: 200px; top:90px;
+  border: solid 2px;
+}
+.face2{
+  width:360px;
+  height:340px;
+  border-radius:50%;
+  background:white;
+  position: absolute;
+  right: 235px; top:180px;
+  border: solid 2px;
+}
+.eye.left{
+  width:130px;
+  height:150px;
+  border-radius:50%;
+  background:white;
+  position: absolute;
+  right: 416px; top:120px;
+  border: solid 2px;
+}
+.eye.right{
+  width:130px;
+  height:150px;
+  border-radius:50%;
+  background:white;
+  position: absolute;
+  right: 284px; top:120px;
+  border: solid 2px;
+}
+.nose{
+  width:60px;
+  height:60px;
+  border-radius:50%;
+  background:red;
+  position: absolute;
+  right: 385px; top:240px;
+  border: solid 2px;
+}
+.c1{
+  width:20px;
+  height:20px;
+  border-radius:50%;
+  background:white;
+  position: absolute;
+  right: 415px; top:250px;
+}
+.mouth{
+  width:280px;
+  height:120px;
+  border-radius:50%;
+  background:red;
+  border-radius:50% 50%  / 0 0 100% 100%;
+  position: absolute;
+  right: 275px; top:355px;
+  border: solid 2px;
+}
+.c2L{
+  width:45px;
+  height:56px;
+  border-radius:50%;
+  background:black;
+  position: absolute;
+  right: 425px; top:180px;
+  border: solid 2px;
+  animation-name:eyeLmove;
+  animation-duration:2s;
+  animation-iteration-count:infinite;
+}
+@keyframes eyeLmove{
+    from{
+        right:425px;
+    }
+    to{
+        right:495px;
+    }
+}
+.c2R{
+  width:45px;
+  height:56px;
+  border-radius:50%;
+  background:black;
+  position: absolute;
+  right: 360px; top:180px;
+  border: solid 2px;
+  animation-name:eyeRmove;
+  animation-duration:2s;
+  animation-iteration-count:infinite;
+}
+@keyframes eyeRmove{
+    from{
+        right:360px;
+    }
+    to{
+        right:290px;
+    }
+}
+.c3L{
+  width:25px;
+  height:33px;
+  border-radius:50%;
+  background:white;
+  position: absolute;
+  right: 430px; top:193px;
+  border: solid 2px;
+  animation-name:eyelmove;
+  animation-duration:2s;
+  animation-iteration-count:infinite;
+}
+@keyframes eyelmove{
+    from{
+        right:430px;
+    }
+    to{
+        right:510px;
+    }
+}
+.c3R{
+  width:25px;
+  height:33px;
+  border-radius:50%;
+  background:white;
+  position: absolute;
+  right: 375px; top:193px;
+  border: solid 2px;
+  animation-name:eyermove;
+  animation-duration:2s;
+  animation-iteration-count:infinite;
+}
+@keyframes eyermove{
+    from{
+        right:375px;
+    }
+    to{
+        right:295px;
+    }
+}
+.mouth1{
+  width:150px;
+  height:70px;
+  border-radius:50%;
+  background:#f74d04;
+  position: absolute;
+  right: 340px; top:404px;
+  border: solid 2px;
+}
+.l1{
+  position:absolute;
+  width:2px;
+  height:52px;
+  right:415px; top:303px;
+  background:black;
+}
+.l2{
+  position:absolute;
+  width:150px;
+  height:2px;
+  right:470px; top:315px;
+  background:black;
+}
+.l3{
+  position:absolute;
+  width:140px;
+  height:2px;
+  right:470px; top:285px;
+  background:black;
+  transform:rotate(6deg)
+}
+.l4{
+  position:absolute;
+  width:140px;
+  height:2px;
+  right:470px; top:345px;
+  background:black;
+  transform:rotate(-6deg)
+}
+.l5{
+  position:absolute;
+  width:150px;
+  height:2px;
+  right:210px; top:315px;
+  background:black;
+}
+.l6{
+  position:absolute;
+  width:140px;
+  height:2px;
+  right:220px; top:285px;
+  background:black;
+  transform:rotate(-6deg)
+}
+.l7{
+  position:absolute;
+  width:140px;
+  height:2px;
+  right:220px; top:345px;
+  background:black;
+  transform:rotate(6deg)
+}
